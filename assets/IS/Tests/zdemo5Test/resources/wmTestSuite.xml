@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="TS_wmTestSuite.xml">
+    <webMethodsTestCase description="Generate a Test Wizard" name="TC_myflow">
+        <service folder="zdemo5" name="myflow">
+            <input>
+                <file filename="resources/zdemo5_myflow_input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/zdemo5_myflow_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
