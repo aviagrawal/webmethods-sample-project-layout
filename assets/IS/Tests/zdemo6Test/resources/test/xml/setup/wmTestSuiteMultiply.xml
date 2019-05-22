@@ -3,10 +3,10 @@
     <webMethodsTestCase description="Generate a Test Wizard" name="TC_multiply">
         <service folder="demo6" name="multiply">
             <input>
-                <file filename="resources/demo6_multiply_input.xml"/>
+                <file filename="resources/test/xml/data/demo6_multiply_input.xml"/>
             </input>
             <expected>
-                <file filename="resources/demo6_multiply_output.xml"/>
+                <file filename="resources/test/xml/data/demo6_multiply_output.xml"/>
             </expected>
         </service>
     </webMethodsTestCase>
